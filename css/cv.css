@@ -1,0 +1,102 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    /* box-sizing: border-box; */
+ }
+ul{
+    list-style-type: none;
+}
+p{
+    line-height: 1.5em;
+}
+.formato{
+    display: flex;
+    
+
+}
+/* -------------HASTA ACA GENERALES-------------- */
+ aside{
+    background-color: #495B73;
+    width: 50%; 
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left:10px;
+    float: left;
+    font-style: italic;
+    box-shadow: 2px 2px 30px 10px #5c5c5c;
+    color: white;
+}    
+
+aside h3{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 2px solid white;
+    color: #A6A6A6;
+}   
+img {
+    border-radius: 50%;
+    width: 90%;
+    margin: 1%;
+}
+h1,
+h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+aside p{
+    letter-spacing: 7px;
+    padding: 10px;
+}
+.encabezado{
+    background-color: #D9A577;
+    box-shadow: 2px 2px 30px 10px #5c5c5c;
+    padding-top: 10px;
+    padding-bottom: 82px;
+    text-align: center;
+    }
+.encabezado h2{
+    color: #6D76A6;
+    border-top: 2px solid white;
+    margin-top: 10%;
+}
+main{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+main section h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color:#586F8C ;
+    border-bottom: solid #586F8C 1px;
+}
+main section h4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+main section h5 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+article ul {
+    list-style-type: square;
+}
+a{
+    color: white;
+}
+meter{
+    display: block;
+    width: 80%;
+}
+button :hover{
+    color: darkorchid;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
