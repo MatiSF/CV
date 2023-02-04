@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>CV-MatiasFernandez</title>
     <link rel="icon" href="icon1.ico">
     <script src="https://kit.fontawesome.com/fe57614e6f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/cv.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script src="js/cvjs.js"></script>
     <div class="formato">
     <aside>
         <figure>
@@ -20,7 +22,7 @@
         </figure>
         <section>
             <h3>informacion personal</h3>
-            <ul>
+            <ul class="info">
                 <li>Argentino</li>
                 <li>30 años</li>
                 <li>Soltero</li>
@@ -33,8 +35,8 @@
                 delectus optio facilis deleniti, in ullam a assumenda, sequi nostrum amet cupiditate et 
                 modi earum quos doloremque ea!
             </p>
-            <button type="button" onclick="alert('Preparece para lo que esta a punto de ver!')">
-                <a target="_blank" href="https://youtu.be/YwXeslYVAS4">Mas sobre mi!</a>
+            <button class="boton" type="button" onclick="alert('Preparece para lo que esta a punto de ver!')">
+                <a id="boton" target="_blank" href="https://youtu.be/YwXeslYVAS4"> <span> Mas sobre mi!</span> </a>
             </button>
         </section>
         <section>
