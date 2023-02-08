@@ -93,7 +93,7 @@ meter{
     display: block;
     width: 80%;
 }
-.boton {
+#boton1 {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -113,14 +113,13 @@ meter{
 	position: relative;
 	overflow: hidden;
 }
-
-.boton span {
+#boton1 span {
 	position: relative;
 	z-index: 2;
 	transition: .3s ease all;
     color: #fff;
 }
-.boton::after {
+#boton1::after {
 	content: "";
 	width: 100%;
 	height: 300px;
@@ -132,15 +131,10 @@ meter{
 	transition: .4s ease-in-out all;
 	border-radius: 0px 0px 300px 300px;
 }
-
-.boton:hover::after {
+#boton1:hover::after {
 	top: 0;
 }
 .info{
     font-weight: bold;
     font-size: 15px;
 }
-/* @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue; */
-    }
